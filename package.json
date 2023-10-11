@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "test create webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianDmitruk/webpack.git"
+  },
+  "author": "Adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianDmitruk/webpack/issues"
+  },
+  "homepage": "https://github.com/AdrianDmitruk/webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
